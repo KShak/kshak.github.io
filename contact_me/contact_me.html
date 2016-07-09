@@ -27,7 +27,23 @@
 				<a id="image_info_link" href="https://www.linkedin.com/in/khalid-shakur-5622a5a4">Linkedin</a>
 			</div>
 			<div id="input_stuff">
-				<h1 id="succ_mess">You're message has been sent. I will get back to you shortly.</h1>
+				<h1 id="cm">Contact Me</h1>
+				<h4 id="yc">Your Choice</h4>
+				<div id="el">	
+					Email Me - <a id="email_link" href="mailto:khalidshakur@berkeley.edu">khalidshakur@berkeley.edu</a> (opens your native email app.)<br>
+				</div>
+				<h4 id="or">or</h4>	
+				<form method="post" action="assets/index.php">
+					Name (required):<br>
+					<div><input type="text" name="name"></div>
+					Association:<br>
+					<div><input type="text" name="assoc"></div>
+					Email (required):<br>
+					<div><input type="text" name="email"></div>
+					Purpose:<br>
+					<div><textarea name="message"></textarea></div>
+					<div><input id="sub" type="submit" name="submit"></div>
+				</form>
 			</div>
 	</div>
 </body>

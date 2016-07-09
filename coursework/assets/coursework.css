@@ -63,7 +63,7 @@ body {
 /*Table Stuff Below*/
 
 #all_tables {
-	margin-top: 70px;
+	margin-top: 76px;
 }
 
 #techs {
@@ -133,4 +133,24 @@ a:hover {
 
 .uppe:hover {
 	color: red;
+}
+
+#social_media_links {
+	/*position: absolute;
+	padding-top: 15px;
+	left: 50%;
+	margin-left: -66.672px;*/
+	text-align: center;
+	padding-top: 15px;
+}
+
+#image_info_link:hover {
+	color: red;
+}
+
+#image_info_link {
+	font-size: 16px;
+	/*text-decoration: none;*/
+	color: #105d73;
+	
 }

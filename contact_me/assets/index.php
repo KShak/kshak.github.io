@@ -20,7 +20,7 @@
       		return false;
    		 }
 	}
-	header('Location: ../sent.html');
+	header('Location: ../sent');
 	require('PHPMailer/PHPMailerAutoload.php');
 	$mail=new PHPMailer();
 	$mail->CharSet = 'UTF-8';
@@ -44,13 +44,13 @@
 	$mail->Port       = 25;
 	$mail->SMTPDebug  = 1;
 	$mail->SMTPAuth   = true;
-	$mail->Username   = 'contactme@james-lee.io';
+	$mail->Username   = 'contactme@khalidshakur.com';
 	$mail->Password   = 'nx%ty-(!]17-';
-	$mail->SetFrom('contactme@james-lee.io', 'Website - Contact Me');
-	$mail->AddReplyTo('no-reply@james-lee.io','no-reply');
-	$mail->Subject    = "$name contacted you through james-lee.io";
+	$mail->SetFrom('contactme@khalidshakur.com', 'Website - Contact Me');
+	$mail->AddReplyTo('no-reply@khalidshakur.com','no-reply');
+	$mail->Subject    = "$name contacted you through khalidshakur.com";
 	$mail->MsgHTML($body);
-	$mail->AddAddress('james.lee.fall16@gmail.com', 'Khalid Shakur');
+	$mail->AddAddress('khalidshakur@gmail.com', 'Khalid Shakur (Personal)');
 	$mail->AddAddress('khalidshakur@berkeley.edu', 'Khalid Shakur (Berkeley)');
 	$mail->send();
 	exit();

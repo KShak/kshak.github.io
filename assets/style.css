@@ -70,16 +70,18 @@ body {
 	color: red;
 }
 
-#image_info_link1:hover {
-	color: red;
-}
-
 #image_info_link {
 	font-size: 16px;
 	/*text-decoration: none;*/
 	color: #105d73;
 	
 }
+
+#image_info_link1:hover {
+	color: red;
+}
+
+
 
 #image_info_link1 {
 	/*text-decoration: none;*/
@@ -117,7 +119,7 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	margin-top: 100px;
+	margin-top: 76px;
 }
 
 #title {
@@ -160,6 +162,14 @@ body {
 	color: #4d2700;
 	margin:0 auto;
 	font-weight: bold;
+}
+
+#social_media_links {
+	/*position: absolute;*/
+	text-align: center;
+	padding-top: 15px;
+	/*left: 50%;
+	margin-left: -66.672px;*/
 }
 
 

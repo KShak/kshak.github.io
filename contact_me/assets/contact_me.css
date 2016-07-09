@@ -60,8 +60,9 @@ body {
 
 #input_stuff {
 	text-align: center;
-	margin: 100px;
+	margin: 76px;
 	color:#4d2700;
+	/*font-size: 50px;*/
 }
 
 #input_stuff a {
@@ -145,5 +146,25 @@ textarea {
 }
 
 #succ_mess {
-	font-size: 70px;
+	font-size: 50px;
+}
+
+#social_media_links {
+	/*position: absolute;
+	padding-top: 15px;
+	left: 50%;
+	margin-left: -66.672px;*/
+	text-align: center;
+	padding-top: 15px;
+}
+
+#image_info_link:hover {
+	color: red;
+}
+
+#image_info_link {
+	font-size: 16px;
+	/*text-decoration: none;*/
+	color: #105d73;
+	
 }
