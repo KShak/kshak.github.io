@@ -149,6 +149,29 @@ textarea {
 	font-size: 50px;
 }
 
+#coming_soon {
+	margin-top: 76px;
+	font-size: 35px;
+	color: #105d73;
+}
+
+#coming_soon a:hover{
+	color: red;
+}
+
+#coming_soon p {
+	color: #4d2700;
+	width: 800px;
+	font-size: 20px;
+	text-align: justify;
+	padding-bottom: 60px;
+
+}
+
+#coming_soon a {
+	color: #105d73;
+}
+
 #social_media_links {
 	/*position: absolute;
 	padding-top: 15px;
